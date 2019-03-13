@@ -10,45 +10,7 @@
         "hgap": 16.0,
         "vgap": 16.0,
         "tiles": {
-          "0,0": {
-            "size": [
-              1,
-              3
-            ],
-            "content": {
-              "_type": "List Layout",
-              "_title": "Vision Cargo Readings",
-              "Layout/Label position": "BOTTOM",
-              "_children": [
-                {
-                  "_type": "Text View",
-                  "_source0": "network_table:///SmartDashboard/Ball Angle",
-                  "_title": "Ball Angle"
-                },
-                {
-                  "_type": "Text View",
-                  "_source0": "network_table:///SmartDashboard/Ball X",
-                  "_title": "Ball X"
-                },
-                {
-                  "_type": "Text View",
-                  "_source0": "network_table:///SmartDashboard/Ball Y",
-                  "_title": "Ball Y"
-                },
-                {
-                  "_type": "Text View",
-                  "_source0": "network_table:///SmartDashboard/Ball Box Width",
-                  "_title": "Ball Box Width"
-                },
-                {
-                  "_type": "Text View",
-                  "_source0": "network_table:///SmartDashboard/Ball Box Height",
-                  "_title": "Ball Box Height"
-                }
-              ]
-            }
-          },
-          "1,0": {
+          "6,0": {
             "size": [
               2,
               3
@@ -81,10 +43,10 @@
               ]
             }
           },
-          "3,3": {
+          "7,3": {
             "size": [
-              1,
-              1
+              2,
+              2
             ],
             "content": {
               "_type": "Simple Dial",
@@ -95,10 +57,10 @@
               "Visuals/Show value": true
             }
           },
-          "3,4": {
+          "6,3": {
             "size": [
               1,
-              1
+              2
             ],
             "content": {
               "_type": "Boolean Box",
@@ -106,43 +68,6 @@
               "_title": "HOLDING",
               "Colors/Color when true": "#7CFC00FF",
               "Colors/Color when false": "#8B0000FF"
-            }
-          },
-          "0,4": {
-            "size": [
-              1,
-              1
-            ],
-            "content": {
-              "_type": "Boolean Box",
-              "_source0": "network_table:///SmartDashboard/PIXY CREATED",
-              "_title": "PIXY CREATED",
-              "Colors/Color when true": "#7CFC00FF",
-              "Colors/Color when false": "#8B0000FF"
-            }
-          },
-          "0,3": {
-            "size": [
-              1,
-              1
-            ],
-            "content": {
-              "_type": "Boolean Box",
-              "_source0": "network_table:///SmartDashboard/PIXY RUNNING",
-              "_title": "PIXY RUNNING",
-              "Colors/Color when true": "#7CFC00FF",
-              "Colors/Color when false": "#8B0000FF"
-            }
-          },
-          "1,3": {
-            "size": [
-              1,
-              1
-            ],
-            "content": {
-              "_type": "Text View",
-              "_source0": "network_table:///SmartDashboard/SERVO ANGLE",
-              "_title": "SERVO ANGLE"
             }
           },
           "4,1": {
@@ -180,7 +105,7 @@
               "_title": "GAME MODE"
             }
           },
-          "3,0": {
+          "8,0": {
             "size": [
               1,
               3
@@ -248,7 +173,7 @@
               ]
             }
           },
-          "6,0": {
+          "0,0": {
             "size": [
               4,
               5
@@ -267,26 +192,78 @@
               "imageHeight": -1
             }
           },
-          "4,2": {
+          "9,0": {
             "size": [
               1,
-              1
+              5
             ],
             "content": {
-              "_type": "Text View",
-              "_source0": "network_table:///SmartDashboard/count",
-              "_title": "count"
-            }
-          },
-          "5,2": {
-            "size": [
-              1,
-              1
-            ],
-            "content": {
-              "_type": "Text View",
-              "_source0": "network_table:///SmartDashboard/Position",
-              "_title": "Position"
+              "_type": "List Layout",
+              "_title": "Line Up",
+              "Layout/Label position": "BOTTOM",
+              "_children": [
+                {
+                  "_type": "Text View",
+                  "_source0": "network_table:///SmartDashboard/PIXY DIR",
+                  "_title": "PIXY DIR"
+                },
+                {
+                  "_type": "Text View",
+                  "_source0": "network_table:///SmartDashboard/Tape Box Width",
+                  "_title": "Tape Box Width"
+                },
+                {
+                  "_type": "Text View",
+                  "_source0": "network_table:///SmartDashboard/SERVO ANGLE",
+                  "_title": "SERVO ANGLE"
+                },
+                {
+                  "_type": "Text View",
+                  "_source0": "network_table:///SmartDashboard/Tape X",
+                  "_title": "Tape X"
+                },
+                {
+                  "_type": "Text View",
+                  "_source0": "network_table:///SmartDashboard/Tape Y",
+                  "_title": "Tape Y"
+                },
+                {
+                  "_type": "Boolean Box",
+                  "_source0": "network_table:///SmartDashboard/PIXY RUNNING",
+                  "_title": "PIXY RUNNING",
+                  "Colors/Color when true": "#7CFC00FF",
+                  "Colors/Color when false": "#8B0000FF"
+                },
+                {
+                  "_type": "Boolean Box",
+                  "_source0": "network_table:///SmartDashboard/PIXY CREATED",
+                  "_title": "PIXY CREATED",
+                  "Colors/Color when true": "#7CFC00FF",
+                  "Colors/Color when false": "#8B0000FF"
+                },
+                {
+                  "_type": "Text View",
+                  "_source0": "network_table:///SmartDashboard/count",
+                  "_title": "count"
+                },
+                {
+                  "_type": "Text View",
+                  "_source0": "network_table:///SmartDashboard/Tape Angle",
+                  "_title": "Tape Angle"
+                },
+                {
+                  "_type": "Text View",
+                  "_source0": "network_table:///SmartDashboard/Tape Box Height",
+                  "_title": "Tape Box Height"
+                },
+                {
+                  "_type": "Boolean Box",
+                  "_source0": "network_table:///SmartDashboard/TAPE VISIBLE",
+                  "_title": "TAPE VISIBLE",
+                  "Colors/Color when true": "#7CFC00FF",
+                  "Colors/Color when false": "#8B0000FF"
+                }
+              ]
             }
           }
         }
